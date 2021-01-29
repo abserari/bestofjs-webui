@@ -5,7 +5,7 @@ const baseSetup = {
   GET_README: 'https://bestofjs-serverless.now.sh',
   GET_PROJECT_DETAILS: 'https://bestofjs-serverless.now.sh',
   GET_PACKAGE_DATA: 'https://bestofjs-serverless.now.sh',
-  ISSUES_REPO: 'michaelrambeau/bestofjs'
+  ISSUES_REPO: 'abserari/bestofjs'
 }
 
 const setup = {

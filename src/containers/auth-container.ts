@@ -14,8 +14,8 @@ type TokenInfoResponse = {
   user_metadata: { projects: BestOfJS.Bookmark[] }
 }
 
-const AUTH0_ROOT_URL = 'https://bestofjs.auth0.com'
-const tokenStorageKey = 'bestofjs_id_token'
+const AUTH0_ROOT_URL = 'bestofyourthing.us.auth0.com'
+const tokenStorageKey = 'bestofyourthing_id_token'
 
 export function useAuth() {
   const { saveCurrentPath, restorePreviousPath } = usePersistPath()
@@ -40,7 +40,7 @@ export function useAuth() {
     // Save the current URL so that we can redirect the user when we are back
     saveCurrentPath()
     const options = {
-      client_id: 'dadmCoaRkXs0IhWwnDmyWaBOjLzJYf4s',
+      client_id: 'mKooGtoG8fcaGcBpmUhg9pkhOSAUWIEr',
       redirect_uri: `${window.location.origin}/auth0.html`,
       scope: 'openid',
       response_type: 'token',
