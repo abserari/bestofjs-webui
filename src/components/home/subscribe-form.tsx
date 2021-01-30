@@ -41,10 +41,7 @@ export const SubscribeForm = () => {
       </Text>
       <Text>
         Check online the latest issue:{' '}
-        <a href="https://weekly.bestofjs.org/latest">
-          Weekly Best of JavaScript
-        </a>
-        .
+        <a href="https://weekly.bestofjs.org/latest">Weekly Best of Go</a>.
       </Text>
       <form action={action} method="post">
         <Input name={name} type="email" required placeholder="Email address" />

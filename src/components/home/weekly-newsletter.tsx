@@ -23,7 +23,7 @@ export const Weekly = () => {
           </Section.Header>
           Visit{' '}
           <ExternalLink url="https://weekly.bestofjs.org/">
-            Weekly Best of JavaScript
+            Weekly Best of Go
           </ExternalLink>{' '}
           to check our weekly newsletter.
           <FetchNewsletterIssue />

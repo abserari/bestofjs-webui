@@ -2,7 +2,7 @@
 
 ## Concept
 
-[Best of JavaScript](https://bestofjs.org/) gathers the latest trends about open source projects related to Node.js and the web platform: JavaScript of course (client and server side) but also HTML, CSS...
+[Best of Go](https://bestofjs.org/) gathers the latest trends about open source projects related to Node.js and the web platform: JavaScript of course (client and server side) but also HTML, CSS...
 
 This is a place where front-end engineers and Node.js developers can find the best components to build amazing web applications.
 
@@ -41,7 +41,7 @@ The web application displays the total number of stars and their variation over 
 
 ### Libraries
 
-This repository contains _Best of JavaScript_ front-end application code, a single-page application built with the following technologies:
+This repository contains _Best of Go_ front-end application code, a single-page application built with the following technologies:
 
 - [Create React App](https://github.com/facebook/create-react-app)
 - [React](http://facebook.github.io/react/)

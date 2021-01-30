@@ -109,7 +109,7 @@ export const NewestProjects = ({ newestProjects, hotFilter }) => {
       <Section.Header icon={<GoGift fontSize={32} />}>
         <Section.Title>Recently Added Projects</Section.Title>
         <Section.SubTitle>
-          Latest additions to <i>Best of JavaScript</i>
+          Latest additions to <i>Best of Go</i>
         </Section.SubTitle>
       </Section.Header>
       <ProjectTable
