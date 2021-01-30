@@ -1,11 +1,11 @@
 const baseSetup = {
   GET_PROJECTS:
     readEnvironmentVariable('STATIC_API') ||
-    'https://bestofgo-backend-rfn6b8yew.vercel.app',
+    'https://bestofgo-backend.vercel.app',
   GET_README: 'https://bestofjs-serverless.now.sh',
   GET_PROJECT_DETAILS: 'https://bestofjs-serverless.now.sh',
   GET_PACKAGE_DATA: 'https://bestofjs-serverless.now.sh',
-  ISSUES_REPO: 'abserari/bestofjs'
+  ISSUES_REPO: 'abserari/bestofjs-webui'
 }
 
 const setup = {

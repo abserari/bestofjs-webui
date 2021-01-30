@@ -6,10 +6,10 @@
   --textSecondaryColor: #87563e;
   --textMutedColor: #bb967c;
   --linkColor: #cc4700;
-  --bestofjsOrange: #e65100;
+  --bestofjsOrange: #007d9c;
   --bestofjsPurple: #9c0042;
   --boxBorderColor: #cecece;
-  --iconColor: #fa9e59;
+  --iconColor: #007d9c;
 }
 
 @media (max-width: 599px) {

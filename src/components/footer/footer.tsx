@@ -41,6 +41,8 @@ export const Footer = () => {
         <section className="footer-bottom">
           <p style={{ marginBottom: '1rem' }}>
             <i>{projectName}</i> is a project by{' '}
+            <a href="https://github.com/abserari">Abserari </a>
+            This UI fork and edit from{' '}
             <a href="https://michaelrambeau.com">Michael Rambeau</a>, made in
             Osaka, Japan.
           </p>

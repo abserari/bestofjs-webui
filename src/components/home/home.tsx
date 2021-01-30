@@ -15,7 +15,7 @@ import { ExternalLink, Button, MainContent, Section } from 'components/core'
 import { CompactTagList } from 'components/tags/tag-list'
 import { HotProjects, NewestProjects } from './home-projects'
 import { RandomFeaturedProject } from './featured-projects'
-import { Weekly } from './weekly-newsletter'
+// import { Weekly } from './weekly-newsletter'
 import { Row, MainColumn, RightSideBar } from './layout'
 
 export const Home = props => {
@@ -24,9 +24,7 @@ export const Home = props => {
 
   return (
     <MainContent>
-      <h1 style={{ margin: '0 0 1rem' }}>
-        The best of JavaScript, HTML and CSS
-      </h1>
+      <h1 style={{ margin: '0 0 1rem' }}>The best of Go</h1>
       <Section>
         <Row>
           <MainColumn>
@@ -52,7 +50,7 @@ export const Home = props => {
         </Row>
       </Section>
       <Tags popularTags={popularTags} isPending={pending} />
-      {!pending && <Weekly />}
+      {/* {!pending && <Weekly />} */}
       <StarOnGitHub />
       <MoreProjects />
     </MainContent>
@@ -150,8 +148,8 @@ const MoreProjects = () => {
         <Section.Title>Do you want more projects?</Section.Title>
       </Section.Header>
       <p>
-        <i>Best of JavaScript</i> is a curated list of 1500 open-source projects
-        related to the web platform and Node.js.
+        <i>Best of Go</i> is a curated list of 100 open-source projects related
+        to the Cloud and Go.
       </p>
       <p>
         If you want to suggest a new project, please click on the following
